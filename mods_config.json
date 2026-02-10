@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0-beta",
+  "last_updated": "2026-02-10",
+  "mods": [
+    {
+      "id": "bepinex",
+      "name": "BepInEx",
+      "repository": "BepInEx/BepInEx",
+      "file_pattern": "BepInEx_x64",
+      "platform": "all",
+      "type": "framework",
+      "description": "Required framework for modding Among Us",
+      "required": true,
+      "enabled": true,
+      "install_order": 1
+    },
+    {
+      "id": "reactor_steam",
+      "name": "Reactor",
+      "repository": "NuclearPowered/Reactor",
+      "file_pattern": "Reactor-",
+      "platform": "steam",
+      "type": "framework",
+      "description": "Modding framework for Among Us",
+      "required": true,
+      "enabled": true,
+      "install_order": 2
+    },
+    {
+      "id": "reactor_epic",
+      "name": "Reactor",
+      "repository": "NuclearPowered/Reactor",
+      "file_pattern": "Reactor-",
+      "platform": "epic",
+      "type": "framework",
+      "description": "Modding framework for Among Us",
+      "required": true,
+      "enabled": true,
+      "install_order": 2
+    },
+    {
+      "id": "town_of_us_mira_steam",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "steam",
+      "platform": "steam",
+      "type": "mod",
+      "description": "Main Town of Us MIRA mod",
+      "required": false,
+      "enabled": true,
+      "install_order": 3
+    },
+    {
+      "id": "town_of_us_mira_epic",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "epic",
+      "platform": "epic",
+      "type": "mod",
+      "description": "Main Town of Us MIRA mod",
+      "required": false,
+      "enabled": true,
+      "install_order": 3
+    },
+    {
+      "id": "mira_roles_extension",
+      "name": "MIRA Roles Extension",
+      "repository": "rewalo/TownOfUsMiraRolesExtension",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Additional roles extension",
+      "required": false,
+      "enabled": true,
+      "install_order": 4
+    },
+    {
+      "id": "game_notifier",
+      "name": "Game Notifier",
+      "repository": "whichtwix/GameNotifier",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "utility",
+      "description": "Get notifications about game events",
+      "required": false,
+      "enabled": true,
+      "install_order": 5
+    },
+    {
+      "id": "mod_explorer",
+      "name": "Mod Explorer",
+      "repository": "xChipseq/ModExplorer",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "utility",
+      "description": "Explore and manage mods in-game",
+      "required": false,
+      "enabled": true,
+      "install_order": 6
+    },
+    {
+      "id": "au_summary",
+      "name": "AU Summary",
+      "repository": "notnico22/AUSummary",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "utility",
+      "description": "Post-game summary and statistics",
+      "required": false,
+      "enabled": true,
+      "install_order": 7
+    }
+  ]
+}
