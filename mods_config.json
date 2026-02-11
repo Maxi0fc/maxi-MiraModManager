@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-02-11",
+  "mods": [
+    {
+      "id": "town_of_us_mira_steam",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "steam",
+      "platform": "steam",
+      "type": "framework",
+      "description": "Main mod (includes BepInEx + Reactor)",
+      "enabled": true,
+      "install_order": 1
+    },
+    {
+      "id": "town_of_us_mira_epic",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "epic",
+      "platform": "epic",
+      "type": "framework",
+      "description": "Main mod (includes BepInEx + Reactor)",
+      "enabled": true,
+      "install_order": 1
+    },
+    {
+      "id": "game_notifier",
+      "name": "Game Notifier",
+      "repository": "whichtwix/GameNotifier",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Get notifications about game events",
+      "enabled": true,
+      "install_order": 2
+    },
+    {
+      "id": "mod_explorer",
+      "name": "Mod Explorer",
+      "repository": "xChipseq/ModExplorer",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Explore and manage mods in-game",
+      "enabled": true,
+      "install_order": 3
+    },
+    {
+      "id": "au_summary",
+      "name": "AU Summary",
+      "repository": "notnico22/AUSummary",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Post-game summary and statistics",
+      "enabled": true,
+      "install_order": 4
+    },
+    {
+      "id": "aunlocker",
+      "name": "AUnlocker",
+      "repository": "astra1dev/AUnlocker",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Unlocks cosmetic content and features in Among Us",
+      "enabled": true,
+      "install_order": 5
+    }
+  ]
+}
