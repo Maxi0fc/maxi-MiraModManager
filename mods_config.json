@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0-beta",
+  "last_updated": "2026-02-11",
+  "mods": [
+    {
+      "id": "town_of_us_mira_steam",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "steam",
+      "platform": "steam",
+      "type": "framework",
+      "description": "Main mod (includes BepInEx + Reactor)",
+      "enabled": true,
+      "install_order": 1
+    },
+    {
+      "id": "town_of_us_mira_epic",
+      "name": "Town of Us MIRA",
+      "repository": "AU-Avengers/TOU-Mira",
+      "file_pattern": "epic",
+      "platform": "epic",
+      "type": "framework",
+      "description": "Main mod (includes BepInEx + Reactor + EpicGamesStarter)",
+      "enabled": true,
+      "install_order": 1
+    },
+    {
+      "id": "mira_roles_extension",
+      "name": "MIRA Roles Extension",
+      "repository": "rewalo/TownOfUsMiraRolesExtension",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "framework",
+      "description": "Additional roles (updates BepInEx API)",
+      "enabled": true,
+      "install_order": 2,
+      "requires_mira": true,
+      "special_uninstall": true
+    },
+    {
+      "id": "game_notifier",
+      "name": "Game Notifier",
+      "repository": "whichtwix/GameNotifier",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Get notifications about game events",
+      "enabled": true,
+      "install_order": 3
+    },
+    {
+      "id": "mod_explorer",
+      "name": "Mod Explorer",
+      "repository": "xChipseq/ModExplorer",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Explore and manage mods in-game",
+      "enabled": true,
+      "install_order": 4
+    },
+    {
+      "id": "vanilla_enhancements",
+      "name": "Vanilla Enhancements",
+      "repository": "xChipseq/VanillaEnhancements",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Quality of life improvements",
+      "enabled": true,
+      "install_order": 5
+    },
+    {
+      "id": "emojis",
+      "name": "Emojis in Chat",
+      "repository": "WanderingPix/Emojis-in-the-mogus-chat",
+      "file_pattern": ".zip",
+      "platform": "all",
+      "type": "mod",
+      "description": "Use emojis in Among Us chat",
+      "enabled": true,
+      "install_order": 6
+    },
+    {
+      "id": "level_spoofer",
+      "name": "Level Spoofer",
+      "repository": "the-real-techiee/LevelSpoofer",
+      "file_pattern": ".dll",
+      "platform": "all",
+      "type": "mod",
+      "description": "Change your displayed level",
+      "enabled": true,
+      "install_order": 7
+    },
+    {
+      "id": "submerged",
+      "name": "Submerged Map",
+      "repository": "SubmergedAmongUs/Submerged",
+      "file_pattern": ".dll",
+      "platform": "all",
+      "type": "mod",
+      "description": "Play on the Submerged custom map",
+      "enabled": true,
+      "install_order": 8
+    },
+    {
+      "id": "aunlocker",
+      "name": "AUnlocker",
+      "repository": "astra1dev/AUnlocker",
+      "file_pattern": ".dll",
+      "platform": "all",
+      "type": "mod",
+      "description": "Unlock cosmetics and pets",
+      "enabled": true,
+      "install_order": 9
+    }
+  ]
+}
