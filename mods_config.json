@@ -47,17 +47,6 @@
       "install_order": 3
     },
     {
-      "id": "au_summary",
-      "name": "AU Summary",
-      "repository": "notnico22/AUSummary",
-      "file_pattern": ".zip",
-      "platform": "all",
-      "type": "mod",
-      "description": "Post-game summary and statistics",
-      "enabled": true,
-      "install_order": 4
-    },
-    {
       "id": "aunlocker",
       "name": "AUnlocker",
       "repository": "astra1dev/AUnlocker",
@@ -66,7 +55,7 @@
       "type": "mod",
       "description": "Unlocks cosmetic content and features in Among Us",
       "enabled": true,
-      "install_order": 5
+      "install_order": 4
     }
   ]
 }
